@@ -1,0 +1,123 @@
+/* --  background image  -- */
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* --  background image  -- */
+
+/* --  navbar  -- */
+#nav {
+
+
+}
+/* --  navbar  -- */
+
+/* --  home  -- */
+header {
+    position: relative;
+    color: white;
+}
+#home {
+    height: 100vh;
+}
+#home .home-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+
+    text-align: center;
+}
+.home-content h1 {
+    text-transform: uppercase;
+}
+.home-content button {
+    margin-top: 20px;
+}
+/* --  home  -- */
+
+/* --  section header  -- */
+
+.section-header {
+    position: relative;
+}
+
+.section-header .title {
+    text-transform: capitalize;
+}
+
+.text-center {
+    margin: 20px auto 0px;
+}
+/* --  section header  -- */
+
+/* -- section  -- */
+
+.section {
+    position: relative;
+    padding-bottom: 5%;
+    border: 1px solid #EEE;
+
+}
+
+.md-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.sm-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* -- section  -- */
+
+/* --  about -- */
+.about {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #EEE;
+    margin: 20px 0px;
+}
+.about i {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/* --  about  -- */
+
+/* --  team  -- */
+.team {
+    position: relative;
+    padding: 40px 20px;
+    margin: 15px 0px;
+}
+.team-img>img {
+    width: 100%;
+}
+
+.team .team-content {
+    text-align: center;
+    position: relative;
+    z-index: 11;
+}
+
+.team .team-content h3 {
+    margin-bottom: 10px;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.team .team-content span {
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+/* --  team  -- */
